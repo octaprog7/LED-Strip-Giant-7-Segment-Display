@@ -50,6 +50,6 @@ You must measure the segment current yourself!
 Schemes and drawings were made in KiCad 9.0.
 
 ![LED strip segment 50×8 mm PNG](led_strip_chunk_50mmx8xx.3D/led_strip_chunk_50x8mm.png)                           
-[145×65 mm, 90° angle PDF](145x65_90_degree_angle/145x65mm_90_degrees_angle.pdf)
-[150×90 mm, 80° angle PDF](150x90mm_80_degree_angle/150x90mm_80_degree_angle.pdf)
+![145×65 mm, 90° angle PNG](145x65_90_degree_angle/145x65mm_90_degree_angle.png)
+![150×90 mm, 80° angle PNG](150x90mm_80_degree_angle/150x90mm_80_degree_angle.png)
 
