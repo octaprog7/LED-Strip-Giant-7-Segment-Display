@@ -1,4 +1,5 @@
 # LED Strip Giant 7‑Segment Display
+## [На русском](README_RU.md)
 
 This project describes a simple DIY giant 7‑segment **display** built from low‑cost LED strips and perfboard.  
 The goal is to get a large, clearly visible digit with minimal components and manufacturing effort.
