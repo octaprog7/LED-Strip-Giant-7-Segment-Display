@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "led_strip")(type "KiCad")(uri "${KIPRJMOD}/led_strip.pretty")(options "")(descr ""))
+)
