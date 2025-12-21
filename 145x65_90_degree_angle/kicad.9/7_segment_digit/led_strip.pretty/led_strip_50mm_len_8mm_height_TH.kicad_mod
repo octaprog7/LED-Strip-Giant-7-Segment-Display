@@ -1,0 +1,156 @@
+(footprint "led_strip_50mm_len_8mm_height_TH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3247dfcd-e9e7-447c-afb7-84c7878cfc5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "led_strip_50mm_len_8mm_height_TH"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "896ddc6a-a436-4309-b5c0-d00baeb538b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14550d01-7ba7-4232-82cd-822f7380f31b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52fb31de-7504-4f00-a631-e36afd678628")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -24 -2)
+		(end 26 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d853725a-a56b-46c1-824f-087c3dd56362")
+	)
+	(fp_line
+		(start -24 2)
+		(end 26 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d70c43e9-b2a8-4a39-98bc-41f68e846d86")
+	)
+	(fp_line
+		(start 26 -2)
+		(end 26 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7a3f61b8-6c8d-4a3a-96b9-076f70d54a96")
+	)
+	(fp_rect
+		(start -24 -4)
+		(end 26 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ddfd9e34-621b-4b25-ab50-ede24da1e32c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "330e1588-d1f5-41af-932e-8702d33f9048")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -24.5 -3)
+		(size 2 2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "defbe14d-47c8-4fbe-acef-00cadc8cdc9e")
+	)
+	(pad "2" thru_hole circle
+		(at -24.5 3)
+		(size 2 2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cb614ac5-4667-4d56-8419-e2eece2b00a6")
+	)
+	(pad "3" thru_hole circle
+		(at 26.5 -3)
+		(size 2 2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8454e0da-aea6-4442-ab86-8176f4822d12")
+	)
+	(pad "4" thru_hole circle
+		(at 26.5 3)
+		(size 2 2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "61fed454-4269-41ee-bd07-daca30c8e7d0")
+	)
+	(embedded_fonts no)
+	(model "/home/roman/3D/STL/KiCad/led_strip_50x8mm.wrl"
+		(opacity 0.8500)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
