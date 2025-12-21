@@ -44,3 +44,11 @@ The LED segments are connected using a common anode circuit.
 The supply voltage, as well as the segment current, depends on the LED strip supply voltage.
 Select the segment switching switches (transistors) based on the LED strip supply voltage and the segment current at that voltage.
 You must measure the segment current yourself!
+
+# Schemes and drawings
+
+Schemes and drawings were made in KiCad 9.0.
+
+[145x65mm_90_degrees_angle.pdf](145x65_90_degree_angle/145x65mm_90_degrees_angle.pdf)
+[150x90mm_80_degree_angle.pdf](150x90mm_80_degree_angle/150x90mm_80_degree_angle.pdf)
+[led_strip_chunk_50x8mm.png](led_strip_chunk_50mmx8xx.3D/led_strip_chunk_50x8mm.png)
