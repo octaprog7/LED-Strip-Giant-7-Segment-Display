@@ -55,7 +55,8 @@ R = (Vcc-Vсид)/Iсид. В формуле Напряжение в Вольт�
 
 Схемы и чертежи сделаны в KiCad 9.0.
 
-[145×65 mm, 90° angle PDF](145x65_90_degree_angle/145x65mm_90_degrees_angle.pdf)
+![LED strip segment 50×8 mm PNG](led_strip_chunk_50mmx8xx.3D/led_strip_chunk_50x8mm.png)    
+[145×65 mm, 90° angle PDF](145x65_90_degree_angle/145х65mm_90_degrees_angle.pdf)
 [150×90 mm, 80° angle PDF](150x90mm_80_degree_angle/150x90mm_80_degree_angle.pdf)
-[LED strip segment 50×8 mm PNG](led_strip_chunk_50mmx8xx.3D/led_strip_chunk_50x8mm.png)
+
 
