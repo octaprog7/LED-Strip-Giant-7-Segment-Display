@@ -46,10 +46,11 @@ Select the segment switching switches (transistors) based on the LED strip suppl
 You must measure the segment current yourself!
 
 # Schemes and drawings
-
 Schemes and drawings were made in KiCad 9.0.
 
+## 50x8 mm LED strip segment
 ![LED strip segment 50×8 mm PNG](led_strip_chunk_50mmx8xx.3D/led_strip_chunk_50x8mm.png)                           
+## 145x65 mm indicator with no tilt
 ![145×65 mm, 90° angle PNG](145x65_90_degree_angle/145x65mm_90_degree_angle.png)
+## 150x90 mm indicator with a 10-degree tilt
 ![150×90 mm, 80° angle PNG](150x90mm_80_degree_angle/150x90mm_80_degree_angle.png)
-
