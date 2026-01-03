@@ -85,6 +85,18 @@
 		(layer "F.SilkS")
 		(uuid "ddfd9e34-621b-4b25-ab50-ede24da1e32c")
 	)
+	(fp_text user "Vcc/Anode"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7562a960-7850-47ca-9ac3-65ad716bbee2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)

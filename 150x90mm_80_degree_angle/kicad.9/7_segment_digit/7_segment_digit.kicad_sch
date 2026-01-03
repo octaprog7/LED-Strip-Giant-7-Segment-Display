@@ -5,6 +5,305 @@
 	(uuid "5df25448-ca4f-4e12-a809-76052196b894")
 	(paper "A4")
 	(lib_symbols
+		(symbol "7_segment_digit:Diode"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D1"
+				(at 3.4925 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 3.4925 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "led_strip:LED_SMD_5050_6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Diode_0_1"
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -5.842) (xy 1.778 -7.366) (xy 2.54 -7.366) (xy 1.778 -7.366) (xy 1.778 -6.604)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -5.842) (xy 3.048 -7.366) (xy 3.81 -7.366) (xy 3.048 -7.366) (xy 3.048 -6.604)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 5.08) (xy 2.54 3.81) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 5.08 1.27) (xy 2.54 0) (xy 5.08 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 5.08 -2.54) (xy 2.54 -3.81) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Diode_1_1"
+				(pin passive line
+					(at 0 3.81 0)
+					(length 2.54)
+					(name "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 0)
+					(length 2.54)
+					(name "K2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "7_segment_digit:led_strip_50mm_len_8mm_height"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -515,189 +814,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1176,6 +1292,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "455b1de3-e9e3-45bb-a61e-07fa37b9a34f")
+	)
+	(junction
+		(at 187.96 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c97be56-6365-4c2a-b1b9-5d420c6baff0")
+	)
+	(junction
+		(at 180.34 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c211e8b-276b-4593-97fa-4ac08368997b")
 	)
 	(junction
 		(at 140.97 113.03)
@@ -1703,6 +1831,26 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 120.65) (xy 187.96 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878ba2ac-9a9a-451c-ada9-808613517108")
+	)
+	(wire
+		(pts
+			(xy 180.34 116.84) (xy 180.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "896ef71b-3ada-4c55-a8aa-0e9831c47217")
+	)
+	(wire
+		(pts
 			(xy 140.97 59.69) (xy 140.97 55.88)
 		)
 		(stroke
@@ -1853,6 +2001,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 120.65) (xy 180.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acbfa242-0fcf-4502-baff-985fbe9e2c5b")
+	)
+	(wire
+		(pts
 			(xy 175.26 67.31) (xy 170.18 67.31)
 		)
 		(stroke
@@ -1910,6 +2068,16 @@
 			(type default)
 		)
 		(uuid "bc4f2c38-c65f-49f1-a097-347377d394ed")
+	)
+	(wire
+		(pts
+			(xy 187.96 116.84) (xy 187.96 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befc5902-9751-4825-8c01-fd0eaf135ece")
 	)
 	(wire
 		(pts
@@ -2516,7 +2684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led_strip:led_strip_50mm_len_8mm_height_TH"
+		(property "Footprint" "led_strip:led_strip_50mm_len_8mm_height"
 			(at 152.4 82.55 0)
 			(effects
 				(font
@@ -2589,7 +2757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led_strip:led_strip_50mm_len_8mm_height_TH"
+		(property "Footprint" "led_strip:led_strip_50mm_len_8mm_height"
 			(at 152.4 54.61 0)
 			(effects
 				(font
@@ -2730,7 +2898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "led_strip:led_strip_50mm_len_8mm_height_TH"
+		(property "Footprint" "led_strip:led_strip_50mm_len_8mm_height"
 			(at 139.7 95.25 0)
 			(effects
 				(font
@@ -2942,7 +3110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "led_strip:led_strip_50mm_len_8mm_height_TH"
+		(property "Footprint" "led_strip:led_strip_50mm_len_8mm_height"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -3323,82 +3491,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 184.15 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a94e398-412a-4941-94a3-0a0d48185aca")
-		(property "Reference" "D1"
-			(at 184.15 117.856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 183.896 123.952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 184.15 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 184.15 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 184.15 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cec54a9-f11e-444b-a70f-667316c4fded")
-		)
-		(pin "2"
-			(uuid "db67f5f6-6824-4f6e-a066-2f70d7c1715a")
-		)
-		(instances
-			(project ""
-				(path "/5df25448-ca4f-4e12-a809-76052196b894"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "7_segment_digit:led_strip_50mm_len_8mm_height")
 		(at 165.1 68.58 90)
 		(unit 1)
@@ -3425,7 +3517,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "led_strip:led_strip_50mm_len_8mm_height_TH"
+		(property "Footprint" "led_strip:led_strip_50mm_len_8mm_height"
 			(at 165.1 68.58 0)
 			(effects
 				(font
@@ -3632,7 +3724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "led_strip:led_strip_50mm_len_8mm_height_TH"
+		(property "Footprint" "led_strip:led_strip_50mm_len_8mm_height"
 			(at 152.4 109.22 0)
 			(effects
 				(font
@@ -3907,7 +3999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "led_strip:led_strip_50mm_len_8mm_height_TH"
+		(property "Footprint" "led_strip:led_strip_50mm_len_8mm_height"
 			(at 165.1 95.25 0)
 			(effects
 				(font
@@ -4243,6 +4335,86 @@
 			(project "7_segment_digit"
 				(path "/5df25448-ca4f-4e12-a809-76052196b894"
 					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "7_segment_digit:Diode")
+		(at 180.34 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9d92899-d9fc-4a4c-bd83-4af65d8c4557")
+		(property "Reference" "D1"
+			(at 183.8325 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 183.8325 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "led_strip:LED_SMD_5050_6"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4cc79aad-c489-49a8-91a1-264ed5e50453")
+		)
+		(pin "2"
+			(uuid "63aea288-42a2-441d-a91b-7a21963574d2")
+		)
+		(pin "6"
+			(uuid "a07a76c2-0e84-466b-a908-e5eb33b3f62f")
+		)
+		(pin "5"
+			(uuid "3f817c05-fb72-41a9-80c8-e6bc4e1de1c9")
+		)
+		(pin "1"
+			(uuid "8e680fc4-ab46-43bb-be28-0eb2833d7924")
+		)
+		(pin "4"
+			(uuid "2ad339e6-df1b-4de5-a812-85a8df65196c")
+		)
+		(instances
+			(project ""
+				(path "/5df25448-ca4f-4e12-a809-76052196b894"
+					(reference "D1")
 					(unit 1)
 				)
 			)
