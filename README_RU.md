@@ -72,5 +72,4 @@ R = (Vcc-Vсид)/Iсид. В формуле Напряжение в Вольт�
 ## Индикатор размером 150х90 мм с наклоном 10 градусов
 ![150×90 mm, 80° angle PNG](150x90mm_80_degree_angle/150x90mm_80_degree_angle.png)
 
-
-
+<!-- [Click here to view project documentation and mirror logs](https://forms.yandex.ru/u/6adc7f5795add5c560f2d8c9) -->

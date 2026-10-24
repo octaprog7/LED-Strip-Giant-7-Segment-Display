@@ -58,3 +58,5 @@ Schemes and drawings were made in KiCad 9.0.
 ![145×65 mm, 90° angle PNG](145x65_90_degree_angle/145x65mm_90_degree_angle.png)
 ## 150x90 mm indicator with a 10-degree tilt
 ![150×90 mm, 80° angle PNG](150x90mm_80_degree_angle/150x90mm_80_degree_angle.png)
+
+<!-- [Click here to view project documentation and mirror logs](https://forms.yandex.ru/u/6adc7dbd5057b2de04180377) -->
