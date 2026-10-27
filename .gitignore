@@ -1,0 +1,10 @@
+.git
+key.txt
+*.dsn
+*.bak
+*.log
+fp-info-cache
+
+
+/145x65_90_degree_angle/kicad.9/7_segment_digit/7_segment_digit-backups/
+/150x90mm_80_degree_angle/kicad.9/7_segment_digit/7_segment_digit-backups/
