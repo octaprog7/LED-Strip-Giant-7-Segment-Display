@@ -1,0 +1,12 @@
+name: Repo Activity Tracker
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  log-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Extract Environment Data
+        run: |
+          echo "Инициатор: ${{ github.actor }}"
+          echo "Событие: ${{ github.event_name }}"
+          echo "Сервер запуска: $RUNNER_OS"
